@@ -14,6 +14,8 @@
 		76840F6B22413AB2001460CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76840F6A22413AB2001460CC /* Assets.xcassets */; };
 		76840F6E22413AB2001460CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76840F6C22413AB2001460CC /* LaunchScreen.storyboard */; };
 		76840F7622413C05001460CC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76840F7522413C05001460CC /* Recipe.swift */; };
+		76840F7822414039001460CC /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76840F7722414039001460CC /* RecipesTableViewController.swift */; };
+		76840F7A2241405A001460CC /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76840F792241405A001460CC /* RecipeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		76840F6D22413AB2001460CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76840F6F22413AB2001460CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76840F7522413C05001460CC /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		76840F7722414039001460CC /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
+		76840F792241405A001460CC /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				76840F6C22413AB2001460CC /* LaunchScreen.storyboard */,
 				76840F6F22413AB2001460CC /* Info.plist */,
 				76840F6722413AB2001460CC /* MyRecipes.xcdatamodeld */,
+				76840F7722414039001460CC /* RecipesTableViewController.swift */,
+				76840F792241405A001460CC /* RecipeTableViewCell.swift */,
 			);
 			path = MyRecipes;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 				76840F6922413AB2001460CC /* MyRecipes.xcdatamodeld in Sources */,
 				76840F6322413AB2001460CC /* ViewController.swift in Sources */,
 				76840F6122413AB2001460CC /* AppDelegate.swift in Sources */,
+				76840F7A2241405A001460CC /* RecipeTableViewCell.swift in Sources */,
 				76840F7622413C05001460CC /* Recipe.swift in Sources */,
+				76840F7822414039001460CC /* RecipesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
