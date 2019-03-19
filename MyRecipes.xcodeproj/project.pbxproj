@@ -13,6 +13,7 @@
 		76840F6922413AB2001460CC /* MyRecipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76840F6722413AB2001460CC /* MyRecipes.xcdatamodeld */; };
 		76840F6B22413AB2001460CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76840F6A22413AB2001460CC /* Assets.xcassets */; };
 		76840F6E22413AB2001460CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76840F6C22413AB2001460CC /* LaunchScreen.storyboard */; };
+		76840F7622413C05001460CC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76840F7522413C05001460CC /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		76840F6A22413AB2001460CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76840F6D22413AB2001460CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76840F6F22413AB2001460CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76840F7522413C05001460CC /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				76840F6022413AB2001460CC /* AppDelegate.swift */,
 				76840F6222413AB2001460CC /* ViewController.swift */,
 				76840F6422413AB2001460CC /* Main.storyboard */,
+				76840F7522413C05001460CC /* Recipe.swift */,
 				76840F6A22413AB2001460CC /* Assets.xcassets */,
 				76840F6C22413AB2001460CC /* LaunchScreen.storyboard */,
 				76840F6F22413AB2001460CC /* Info.plist */,
@@ -142,6 +145,7 @@
 				76840F6922413AB2001460CC /* MyRecipes.xcdatamodeld in Sources */,
 				76840F6322413AB2001460CC /* ViewController.swift in Sources */,
 				76840F6122413AB2001460CC /* AppDelegate.swift in Sources */,
+				76840F7622413C05001460CC /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
