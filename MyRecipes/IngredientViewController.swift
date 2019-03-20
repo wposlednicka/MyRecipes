@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IngredientViewController: UIViewController {
+class IngredientViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var amountTextField: UITextField!
@@ -19,14 +19,26 @@ class IngredientViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.unitPicker.delegate = self
+        self.unitPicker.dataSource = self
         loadPickerData()
-
-        // Do any additional setup after loading the view.
     }
     
     private func loadPickerData(){
-        unitPickerData = [Measure.dag.rawValue, Measure.kg.rawValue]
-        
+        unitPickerData = [Measure.szt.rawValue, Measure.kg.rawValue, Measure.dag.rawValue,
+                          Measure.litr.rawValue, Measure.lyzka.rawValue, Measure.lyzeczka.rawValue, Measure.szczypta.rawValue]
+    }
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return unitPickerData.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return unitPickerData[row]
     }
 
     override func didReceiveMemoryWarning() {
