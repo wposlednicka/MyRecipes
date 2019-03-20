@@ -28,8 +28,9 @@ class RecipeViewController: UIViewController, UIImagePickerControllerDelegate, U
         imagePickerController.sourceType = .photoLibrary
         imagePickerController.delegate = self
         present(imagePickerController, animated: true, completion: nil)
-        
     }
+    
+    
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
@@ -59,9 +60,7 @@ class RecipeViewController: UIViewController, UIImagePickerControllerDelegate, U
         let image = imageRecipe.image!
         
         recipe = Recipe.init(name: name, ingredients: ingredients, description: descriptions, image: image)
-        
-        
-        
+ 
     }
 
     override func viewDidLoad() {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7617FD8E2242948100B7D1C6 /* IngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7617FD8D2242948100B7D1C6 /* IngredientViewController.swift */; };
+		76641A2322427F56008469F1 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76641A2222427F56008469F1 /* Ingredient.swift */; };
 		76840F6122413AB2001460CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76840F6022413AB2001460CC /* AppDelegate.swift */; };
 		76840F6322413AB2001460CC /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76840F6222413AB2001460CC /* RecipeViewController.swift */; };
 		76840F6622413AB2001460CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76840F6422413AB2001460CC /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7617FD8D2242948100B7D1C6 /* IngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientViewController.swift; sourceTree = "<group>"; };
+		76641A2222427F56008469F1 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		76840F5D22413AB2001460CC /* MyRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76840F6022413AB2001460CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76840F6222413AB2001460CC /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +68,9 @@
 			children = (
 				76840F6022413AB2001460CC /* AppDelegate.swift */,
 				76840F6222413AB2001460CC /* RecipeViewController.swift */,
+				76641A2222427F56008469F1 /* Ingredient.swift */,
 				76840F6422413AB2001460CC /* Main.storyboard */,
+				7617FD8D2242948100B7D1C6 /* IngredientViewController.swift */,
 				76840F7522413C05001460CC /* Recipe.swift */,
 				76840F6A22413AB2001460CC /* Assets.xcassets */,
 				76840F6C22413AB2001460CC /* LaunchScreen.storyboard */,
@@ -149,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76840F6922413AB2001460CC /* MyRecipes.xcdatamodeld in Sources */,
+				7617FD8E2242948100B7D1C6 /* IngredientViewController.swift in Sources */,
 				76840F6322413AB2001460CC /* RecipeViewController.swift in Sources */,
+				76641A2322427F56008469F1 /* Ingredient.swift in Sources */,
 				76840F6122413AB2001460CC /* AppDelegate.swift in Sources */,
 				76840F7A2241405A001460CC /* RecipeTableViewCell.swift in Sources */,
 				76840F7622413C05001460CC /* Recipe.swift in Sources */,
