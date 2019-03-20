@@ -31,6 +31,9 @@ class RecipeViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     
+    @IBAction func cancelAction(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)

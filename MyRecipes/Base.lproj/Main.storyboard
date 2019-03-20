@@ -123,7 +123,7 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="lax-uZ-OuY" kind="presentation" id="w0E-hq-kAp"/>
+                                                    <segue destination="lax-uZ-OuY" kind="presentation" identifier="addNewIngredient" id="w0E-hq-kAp"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -218,7 +218,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="New recipe" id="PeB-UY-nZU">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="mmH-BH-9tA"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="mmH-BH-9tA">
+                            <connections>
+                                <action selector="cancelAction:" destination="BYZ-38-t0r" id="OAp-23-zvU"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="eTk-LM-iGM">
                             <connections>
                                 <segue destination="tQl-yL-tJx" kind="unwind" unwindAction="unwindToRecipeListWithSender:" id="hT2-1O-roR"/>
@@ -300,7 +304,11 @@
                         <viewLayoutGuide key="safeArea" id="U0j-h4-odr"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Ingredient" id="Eq7-9C-D0L">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="M92-47-N6a"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="M92-47-N6a">
+                            <connections>
+                                <action selector="cancel:" destination="Ogq-G1-N38" id="fAv-p1-wc7"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="wH1-mk-sMM"/>
                     </navigationItem>
                     <connections>

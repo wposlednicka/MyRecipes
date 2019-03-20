@@ -16,6 +16,9 @@ class IngredientViewController: UIViewController, UIPickerViewDelegate, UIPicker
     
     var unitPickerData = [String]()
     
+    @IBAction func cancel(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
