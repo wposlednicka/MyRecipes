@@ -68,6 +68,15 @@ class RecipesTableViewController: UITableViewController {
 
         return cell
     }
+    
+    @IBAction func unwindToRecipeList(sender: UIStoryboardSegue) {
+        if let sourceViewController = sender.source as? RecipeViewController, let recipe = sourceViewController.recipe {
+            
+            let newIndex = IndexPath(row: recipes.count, section: 0)
+            recipes.append(recipe)
+            tableView.insertRows(at: [newIndex], with: .automatic)
+        }
+    }
  
 
     /*

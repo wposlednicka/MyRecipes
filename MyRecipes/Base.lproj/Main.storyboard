@@ -210,10 +210,24 @@
                     </view>
                     <navigationItem key="navigationItem" title="New recipe" id="PeB-UY-nZU">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="mmH-BH-9tA"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="eTk-LM-iGM"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="eTk-LM-iGM">
+                            <connections>
+                                <segue destination="tQl-yL-tJx" kind="unwind" unwindAction="unwindToRecipeListWithSender:" id="hT2-1O-roR"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="addNewIngredientButton" destination="g7n-9V-DGQ" id="DRS-Ed-THF"/>
+                        <outlet property="cancelButton" destination="mmH-BH-9tA" id="fyI-v9-2Ot"/>
+                        <outlet property="descriptionTextField" destination="lYI-xz-sq3" id="eFt-l2-SMN"/>
+                        <outlet property="imageRecipe" destination="RVz-Lp-x6h" id="K5l-6A-oXH"/>
+                        <outlet property="ingredientsTable" destination="MiZ-Ff-bGn" id="nN3-FT-5Nz"/>
+                        <outlet property="nameRecipeTextField" destination="bil-qp-c8g" id="YWW-AP-J1z"/>
+                        <outlet property="saveButton" destination="eTk-LM-iGM" id="z2N-RX-R06"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="tQl-yL-tJx" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1389.375" y="32.74647887323944"/>
         </scene>
